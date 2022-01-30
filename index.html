@@ -2,50 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./stylesheet.css">
   </head>
   <body>
-    <!-- Hero section below including menu -->
-	<div class="hero">
-        <img id="logo" src=""><figcaption>Logo</figcaption>
+
+    <!-- logo & menu  -->
+
+	<div class="container">
+        
         <nav id="nav">
-          <ul id="nav-list">
-              <li class="nav-item"><a href="#random-info">Random Information</a></li>
-              <li class="nav-item"><a href="#quote">Quote</a></li>
-              <li class="nav-item"><a href="#sign-up">Sign up</a></li>
-          </ul>
+
+            <div class="header-logo">
+                <img id="logo" src=""><figcaption>Logo</figcaption>
+            </div>
+
+          <div id="nav-list">
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a> 
+          </div>
+
         </nav>
-        <h1 id="hero-main-text">This website is awesome</h1>
-        <p id="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <img id="hero-image" src="">
-        <button type="button">Sign up</button>
+
+    <!-- hero text -->
+        <div class="hero">
+            <div class="hero-box">
+                <h1 id="hero-main-text">This website is awesome</h1>
+                <p id="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button type="button">Sign up</button>
+            </div>
+
+    <!-- hero image -->
+
+            <div class="hero-image">
+                <img src="">
+            </div>
+        </div>
     </div>
-    <!-- Mid section starts here-->
+
+    <!-- info section -->
+
     <div id="random-info">
-        <h3>Some random information.</h3>
+        <h3 id="information-header">Some random information.</h3>
         <img class="images" src="" alt=""><figcaption>this is some subtext under an illustration or image</figcaption>
         <img class="images" src="" alt=""><figcaption>this is some subtext under an illustration or image</figcaption>
         <img class="images" src="" alt=""><figcaption>this is some subtext under an illustration or image</figcaption>
         <img class="images" src="" alt=""><figcaption>this is some subtext under an illustration or image</figcaption>
     </div>
-<!-- Inspiring quote section -->
+
+    <!-- inspiring quote -->
+
     <div id="quote">
         <blockquote>
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
             <cite>Thor, God of Thunder</cite>
         </blockquote>
     </div>
-<!-- Call to action section-->
+
+    <!-- call to action -->
+
     <div id="action">
 
     </div>
-<!-- Footer section -->
+
+    <!-- footer -->
+
     <footer>
         <p>Copyright &#169; Adam Chapman 2022</p>
     </footer>
+
   </body>
 </html>
